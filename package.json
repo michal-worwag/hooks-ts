@@ -20,10 +20,6 @@
     "prepublishOnly": "npm run ci"
   },
   "author": "Michał Worwąg",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattpocock/tt-package-demo.git"
-  },
   "license": "MIT",
   "files": [
     "dist"
