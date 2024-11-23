@@ -1,3 +1,3 @@
-declare const add: (a: number, b: number) => number;
+declare function useSlugify(str: string): string;
 
-export { add };
+export { useSlugify };

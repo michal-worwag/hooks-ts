@@ -24,14 +24,22 @@ var __toCommonJS = (mod) =>
 // src/index.ts
 var src_exports = {};
 __export(src_exports, {
-  add: () => add,
+  useSlugify: () => useSlugify,
 });
 module.exports = __toCommonJS(src_exports);
 
-// src/utils.ts
-var add = (a, b) => a + b;
+// src/useSlugify/useSlugify.ts
+function useSlugify(str) {
+  const slug = str
+    .toLowerCase()
+    .replace(/[^a-z0-9 -]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  return slug;
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 &&
   (module.exports = {
-    add,
+    useSlugify,
   });
