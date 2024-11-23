@@ -2,10 +2,28 @@
   "name": "hooks-ts",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "keywords": [
+    "hooks",
+    "typescript",
+    "react"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
   },
   "author": "Michał Worwąg",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpocock/tt-package-demo.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.7.2"
+  }
 }
