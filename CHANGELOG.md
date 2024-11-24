@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.2.0
+
+### Minor Changes
+
+- 87ecd7a: Add useDebounce hook
+
 ## 0.1.0
 
 ### Minor Changes
