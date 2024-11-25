@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.2.1
+
+### Patch Changes
+
+- 225360a: Add simple docs
+
 ## 0.2.0
 
 ### Minor Changes
