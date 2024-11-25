@@ -10,7 +10,7 @@
   "scripts": {
     "ci": "pnpm build && pnpm format && pnpm check-format && pnpm check-exports && pnpm lint",
     "build": "tsup",
-    "prepublishOnly": "pnpm ci",
+    "prepublishOnly": "pnpm run ci",
     "lint": "tsc",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
