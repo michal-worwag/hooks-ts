@@ -8,16 +8,16 @@
     "react"
   ],
   "scripts": {
-    "build": "tsup",
     "ci": "pnpm build && pnpm format && pnpm check-format && pnpm check-exports && pnpm lint",
-    "format": "prettier --write .",
+    "build": "tsup",
+    "prepublishOnly": "pnpm ci",
     "lint": "tsc",
+    "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "test": "vitest run",
     "dev": "vitest",
     "local-release": "changeset version && changeset publish",
-    "prepublishOnly": "pnpm ci",
     "preinstall": "npx only-allow pnpm"
   },
   "author": "Michał Worwąg",
@@ -49,5 +49,6 @@
   },
   "peerDependencies": {
     "react": "^16.8.0  || ^17 || ^18 || ^19 || ^19.0.0-rc"
-  }
+  },
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
 }
