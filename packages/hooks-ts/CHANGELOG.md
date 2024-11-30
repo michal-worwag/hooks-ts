@@ -1,5 +1,12 @@
 # hooks-ts
 
+## 0.3.0
+
+### Minor Changes
+
+- 76d70b7: Add docs and new hooks
+- afac5f3: Update
+
 ## 0.2.1
 
 ### Patch Changes
