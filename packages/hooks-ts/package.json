@@ -3,6 +3,7 @@
   "version": "0.3.0",
   "description": "",
   "author": "Michał Worwąg",
+  "homepage": "https://hooks-ts.com",
   "keywords": [
     "hooks",
     "typescript",
@@ -49,6 +50,13 @@
   },
   "peerDependencies": {
     "react": "^16.8.0  || ^17 || ^18 || ^19 || ^19.0.0-rc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michal-worwag/hooks-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/michal-worwag/hooks-ts/issues"
   },
   "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
 }
