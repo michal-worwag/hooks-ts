@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.3.1
+
+### Patch Changes
+
+- 47585ca: Add readme.md and update package.json
+
 ## 0.3.0
 
 ### Minor Changes
