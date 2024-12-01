@@ -1,5 +1,7 @@
 # useDebounce
 
+## Usage
+
 ```ts
 import { useState } from 'react';
 import { useDebounce } from 'hooks-ts';
