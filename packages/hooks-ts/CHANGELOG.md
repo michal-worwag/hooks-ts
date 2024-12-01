@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.4.0
+
+### Minor Changes
+
+- e8738a6: Add new hook, update test and docs
+
 ## 0.3.1
 
 ### Patch Changes
