@@ -1,5 +1,7 @@
 # useSlugify
 
+## Usage
+
 ```ts
 import { useSlugify } from 'hooks-ts';
 import { useState } from 'react';
