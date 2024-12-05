@@ -46,14 +46,18 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'hooks-ts',
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docSidebar',
           position: 'left',
           label: 'Docs',
         },
