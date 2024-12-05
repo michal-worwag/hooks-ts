@@ -7,9 +7,7 @@ describe('useDebounce', () => {
   it('should debounce the value', () => {
     const delay = 100;
     const initialValue = 'Hello World';
-    const { result } = renderHook(() =>
-      useDebounce({ value: initialValue, delay }),
-    );
+    const { result } = renderHook(() => useDebounce(initialValue, delay));
 
     expect(result.current).toBe(initialValue);
 
