@@ -39,7 +39,7 @@ export function HoverComponent() {
 
 ## Hook
 
-```tsx
+```ts
 import { useState, useEffect } from 'react';
 
 export function useHover<T extends HTMLElement>(
