@@ -1,5 +1,3 @@
 {
-  "build": {
-    "ignoreCommand": "git branch --show-current | grep -v -E '^(main|develop)$' && exit 0 || exit 1"
-  }
+  "ignoreCommand": "git branch --show-current | grep -v -E '^(main|develop)$' && exit 0 || exit 1"
 }
