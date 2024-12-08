@@ -1,0 +1,38 @@
+.container {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.heading {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border: 1px solid #eaeaea;
+}
+
+.hook h3 {
+  margin: 0;
+}
+
+@media screen and (min-width: 599px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
