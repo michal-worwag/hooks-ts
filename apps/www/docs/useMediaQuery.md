@@ -1,8 +1,10 @@
 # useMediaQuery
 
+The `useMediaQuery` hook allows you to track the state of a CSS media query, returning a boolean that indicates whether the media query matches the current device or viewport characteristics. It is useful for responsive design and handling different screen sizes or features dynamically.
+
 ## Usage
 
-```ts
+```tsx
 import { useMediaQuery } from 'hooks-ts';
 
 export default function App() {
@@ -15,6 +17,10 @@ export default function App() {
   );
 }
 ```
+
+### Returns
+
+`matches: boolean` - A boolean value indicating whether the media query matches the current state. It is true if the query matches, and false otherwise.
 
 ## Hook
 

@@ -1,8 +1,10 @@
 # useLocalStorage
 
+The `useLocalStorage` hook provides a convenient way to manage state that is persisted in `localStorage`. It allows you to retrieve, set, and persist values across page reloads, making it ideal for saving user preferences or session data.
+
 ## Usage
 
-```ts
+```tsx
 import { useEffect, useState } from 'react';
 import { useLocalStorage } from 'hooks-ts';
 
@@ -34,6 +36,12 @@ export default function App() {
   );
 }
 ```
+
+### Returns
+
+`storedValue: T` - The current value stored in localStorage, or the initialValue if no value is found.
+
+`setValue: (value: T) => void` - A function to update the storedValue and save the updated value to localStorage.
 
 ## Hook
 

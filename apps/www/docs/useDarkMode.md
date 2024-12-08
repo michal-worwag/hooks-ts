@@ -21,9 +21,9 @@ function App() {
 
 ### Returns
 
-`isDarkMode`: A boolean indicating whether dark mode is currently active.
+`isDarkMode: boolean` - A boolean value indicating whether dark mode is currently enabled (true) or not (false).
 
-`toggleDarkMode`: A function to toggle the dark mode state between light and dark.
+`toggleDarkMode: () => void` - A function to toggle the dark mode state between light and dark.
 
 ## Hook
 

@@ -1,8 +1,10 @@
 # useNetworkStatus
 
+The `useNetworkStatus` hook monitors the online/offline status of the user's device. It returns a boolean indicating whether the device is currently online (`true`) or offline (`false`), and automatically updates as the network status changes.
+
 ## Usage
 
-```ts
+```tsx
 import { useNetworkStatus } from 'hooks-ts';
 
 export default function App() {
@@ -15,6 +17,13 @@ export default function App() {
   );
 }
 ```
+
+### Returns
+
+`isOnline: boolean` - A boolean value that reflects the current network status:
+
+- `true` if the device is online.
+- `false` if the device is offline.
 
 ## Hook
 
