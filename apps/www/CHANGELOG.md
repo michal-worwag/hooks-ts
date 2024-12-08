@@ -1,5 +1,11 @@
 # www
 
+## 0.4.0
+
+### Minor Changes
+
+- 64ed699: Add useThrottle and useToggle hooks
+
 ## 0.3.0
 
 ### Minor Changes

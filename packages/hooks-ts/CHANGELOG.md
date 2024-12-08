@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.6.0
+
+### Minor Changes
+
+- 64ed699: Add useThrottle and useToggle hooks
+
 ## 0.5.0
 
 ### Minor Changes
