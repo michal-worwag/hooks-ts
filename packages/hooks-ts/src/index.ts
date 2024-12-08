@@ -6,3 +6,4 @@ export * from './useMediaQuery';
 export * from './useNetworkStatus';
 export * from './useSlugify';
 export * from './useThrottle';
+export * from './useToggle';

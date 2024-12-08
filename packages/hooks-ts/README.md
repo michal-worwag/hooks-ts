@@ -18,3 +18,4 @@ You can find some docs here:
 - [`useNetworkStatus`](https://hooks-ts.com/docs/useNetworkStatus)
 - [`useSlugify`](https://hooks-ts.com/docs/useSlugify)
 - [`useThrottle`](https://hooks-ts.com/docs/useThrottle)
+- [`useToggle`](https://hooks-ts.com/docs/useToggle)

@@ -27,7 +27,7 @@ export function ThrottleExample() {
 }
 ```
 
-### Results
+### Returns
 
 `throttledValue: T` - The throttled version of the input value, which updates only after the specified delay.
 
