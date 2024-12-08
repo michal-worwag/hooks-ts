@@ -31,4 +31,8 @@ export const hooks = [
     name: 'useThrottle',
     url: 'https://hooks-ts.com/docs/useThrottle',
   },
+  {
+    name: 'useToggle',
+    url: 'https://hooks-ts.com/docs/useToggle',
+  },
 ];
