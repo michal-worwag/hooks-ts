@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.5.0
+
+### Minor Changes
+
+- e631baa: Add new hooks and update docs
+
 ## 0.4.0
 
 ### Minor Changes

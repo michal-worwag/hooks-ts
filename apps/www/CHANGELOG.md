@@ -1,5 +1,12 @@
 # www
 
+## 0.3.0
+
+### Minor Changes
+
+- e631baa: Add new hooks and update docs
+- dda0d39: Update docs and change theme colors
+
 ## 0.2.0
 
 ### Minor Changes
