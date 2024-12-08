@@ -5,3 +5,4 @@ export * from './useLocalStorage';
 export * from './useMediaQuery';
 export * from './useNetworkStatus';
 export * from './useSlugify';
+export * from './useThrottle';

@@ -27,4 +27,8 @@ export const hooks = [
     name: 'useSlugify',
     url: 'https://hooks-ts.com/docs/useSlugify',
   },
+  {
+    name: 'useThrottle',
+    url: 'https://hooks-ts.com/docs/useThrottle',
+  },
 ];
