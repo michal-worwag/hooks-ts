@@ -4,8 +4,9 @@ Package with useful hooks 😊
 
 ## Available hooks
 
-- [`useDebounce`](https://hooks-ts.com/docs/useDebounce)
+- [`useCountdown`](https://hooks-ts.com/docs/useCountdown)
 - [`useDarkMode`](https://hooks-ts.com/docs/useDebounce)
+- [`useDebounce`](https://hooks-ts.com/docs/useDebounce)
 - [`useHover`](https://hooks-ts.com/docs/useHover)
 - [`useLocalStorage`](https://hooks-ts.com/docs/useLocalStorage)
 - [`useMediaQuery`](https://hooks-ts.com/docs/useMediaQuery)

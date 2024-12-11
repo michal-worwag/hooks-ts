@@ -1,11 +1,15 @@
 export const hooks = [
   {
-    name: 'useDebounce',
-    url: 'https://hooks-ts.com/docs/useDebounce',
+    name: 'useCountdown',
+    url: 'https://hooks-ts.com/docs/useCountdown',
   },
   {
     name: 'useDarkMode',
     url: 'https://hooks-ts.com/docs/useDarkMode',
+  },
+  {
+    name: 'useDebounce',
+    url: 'https://hooks-ts.com/docs/useDebounce',
   },
   {
     name: 'useHover',
