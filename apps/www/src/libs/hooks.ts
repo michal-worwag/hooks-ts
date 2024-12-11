@@ -1,5 +1,9 @@
 export const hooks = [
   {
+    name: 'useBoolean',
+    url: 'https://hooks-ts.com/docs/useBoolean',
+  },
+  {
     name: 'useCountdown',
     url: 'https://hooks-ts.com/docs/useCountdown',
   },
