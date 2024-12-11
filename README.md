@@ -4,6 +4,7 @@ Package with useful hooks 😊
 
 ## Available hooks
 
+- [`useBoolean`](https://hooks-ts.com/docs/useBoolean)
 - [`useCountdown`](https://hooks-ts.com/docs/useCountdown)
 - [`useDarkMode`](https://hooks-ts.com/docs/useDebounce)
 - [`useDebounce`](https://hooks-ts.com/docs/useDebounce)
