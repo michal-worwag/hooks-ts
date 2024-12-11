@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.7.0
+
+### Minor Changes
+
+- 66daba4: Add new hooks useBoolean and useCountdown with docs
+
 ## 0.6.0
 
 ### Minor Changes
