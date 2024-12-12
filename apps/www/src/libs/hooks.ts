@@ -4,6 +4,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useBoolean',
   },
   {
+    name: 'useCopyToClipboard',
+    url: 'https://hooks-ts.com/docs/useCopyToClipboard',
+  },
+  {
     name: 'useCountdown',
     url: 'https://hooks-ts.com/docs/useCountdown',
   },
