@@ -1,6 +1,10 @@
 # hooks-ts
 
-Package with useful hooks 😊
+hooks-ts is a lightweight, TypeScript-first library providing a collection of reusable and efficient React hooks. Designed for simplicity and flexibility, this package is perfect for developers who want to accelerate development without sacrificing type safety or code quality.
+
+```bash
+npm install hooks-ts
+```
 
 ## Available hooks
 
