@@ -1,5 +1,11 @@
 # www
 
+## 0.6.0
+
+### Minor Changes
+
+- f72f9c2: Add new hook useCopyToClipboard with docs
+
 ## 0.5.0
 
 ### Minor Changes

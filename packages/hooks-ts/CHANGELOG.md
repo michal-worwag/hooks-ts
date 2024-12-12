@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.8.0
+
+### Minor Changes
+
+- f72f9c2: Add new hook useCopyToClipboard with docs
+
 ## 0.7.0
 
 ### Minor Changes
