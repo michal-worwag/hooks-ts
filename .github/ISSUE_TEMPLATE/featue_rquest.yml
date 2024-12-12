@@ -1,0 +1,33 @@
+name: 'Feature request 🚀'
+description: 'Suggest an idea for this project'
+title: '[FEAT] '
+labels:
+  - enhancement
+  - feature request
+  - new hook
+
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 'Describe the feature'
+      description: 'A clear and concise description of what the feature is.'
+      placeholder: 'I would like to [...]'
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-rationale
+    attributes:
+      label: 'Rationale'
+      description: 'Explain why this feature would be useful.'
+      placeholder: 'This feature would be useful because [...]'
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-additional-info
+    attributes:
+      label: 'Additional context'
+      description: 'Add any other context or screenshots about the feature request here.'
+      placeholder: 'I am using [...]'
