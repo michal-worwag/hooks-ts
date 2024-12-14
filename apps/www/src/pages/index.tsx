@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - Simple, type-safe React hooks`}
       description="Simple, type-safe React hooks"
     >
       <HomepageHeader />
