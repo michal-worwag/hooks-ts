@@ -1,5 +1,12 @@
 # hooks-ts
 
+## 0.8.1
+
+### Patch Changes
+
+- 2e69f50: fix: add missing null type to useHover
+  docs: update docs
+
 ## 0.8.0
 
 ### Minor Changes

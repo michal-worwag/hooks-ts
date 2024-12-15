@@ -1,5 +1,12 @@
 # www
 
+## 0.6.1
+
+### Patch Changes
+
+- 2e69f50: fix: add missing null type to useHover
+  docs: update docs
+
 ## 0.6.0
 
 ### Minor Changes
