@@ -5,10 +5,10 @@ The `useThrottle` hook ensures that the value is updated at most once every spec
 ## Usage
 
 ```tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useThrottle } from 'hooks-ts';
 
-export function ThrottleExample() {
+export default function UseThrottleExample() {
   const [input, setInput] = useState('');
   const throttledInput = useThrottle(input, 1000);
 

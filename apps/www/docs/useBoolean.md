@@ -7,9 +7,8 @@ The `useBoolean` hook manages boolean state in React applications, providing uti
 ```tsx
 import { useBoolean } from 'hooks-ts';
 
-export function BooleanExample() {
+export default function UseBooleanExample() {
   const { value, setValue, toggle, setTrue, setFalse } = useBoolean(false);
-
   return (
     <div>
       <p>Current Value: {value ? 'True' : 'False'}</p>

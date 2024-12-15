@@ -5,10 +5,9 @@ The `useToggle` hook manages a boolean state, allowing it to toggle between `tru
 ## Usage
 
 ```tsx
-import React from 'react';
 import { useToggle } from 'hooks-ts';
 
-export function ToggleExample() {
+export default function UseToggleExample() {
   const [isOn, toggleIsOn] = useToggle(false);
 
   return (

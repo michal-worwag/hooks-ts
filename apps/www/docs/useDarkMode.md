@@ -7,7 +7,7 @@ The useDarkMode hook is a custom React hook designed to manage a "dark mode" set
 ```tsx
 import { useDarkMode } from 'hooks-ts';
 
-function App() {
+export default function UseDarkModeExample() {
   const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (

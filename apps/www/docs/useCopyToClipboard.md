@@ -7,14 +7,13 @@
 ```tsx
 import { useCopyToClipboard } from 'hooks-ts';
 
-function CopyToClipboardExample() {
+export default function UseCopyToClipboardExample() {
   const [copiedText, copyToClipboard] = useCopyToClipboard();
 
   const handleCopy = async () => {
     const text = 'Hello, Clipboard!';
     await copyToClipboard(text);
   };
-
   return (
     <div>
       <button onClick={handleCopy}>Copy Text</button>

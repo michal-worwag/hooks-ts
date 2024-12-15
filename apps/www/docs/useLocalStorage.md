@@ -8,7 +8,7 @@ The `useLocalStorage` hook provides a convenient way to manage state that is per
 import { useEffect, useState } from 'react';
 import { useLocalStorage } from 'hooks-ts';
 
-export default function App() {
+export default function UseLocalStorageExample() {
   const [count, setCount] = useState(0);
   const [value, setValue] = useLocalStorage<number>('count', 0);
 

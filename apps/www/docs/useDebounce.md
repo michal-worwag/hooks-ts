@@ -8,7 +8,7 @@ The `useDebounce` hook delays updating a value until after a specified amount of
 import { useState } from 'react';
 import { useDebounce } from 'hooks-ts';
 
-export default function App() {
+export default function UseDebounceExample() {
   const [value, setValue] = useState<string>('');
 
   const debounced = useDebounce(value, 500);

@@ -7,7 +7,7 @@ The `useMediaQuery` hook allows you to track the state of a CSS media query, ret
 ```tsx
 import { useMediaQuery } from 'hooks-ts';
 
-export default function App() {
+export default function UseMedaiQueryExample() {
   const isMobile = useMediaQuery('(max-width: 768px)');
 
   return (

@@ -7,7 +7,7 @@ The `useCountdown` hook manages a countdown timer that decrements every second a
 ```tsx
 import { useCountdown } from 'hooks-ts';
 
-function CountdownExample() {
+export default function UseCountdownExample() {
   const [timeLeft, reset] = useCountdown(10);
 
   return (

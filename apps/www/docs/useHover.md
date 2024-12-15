@@ -5,10 +5,10 @@ The `useHover` hook tracks whether a referenced DOM element is currently being h
 ## Usage
 
 ```tsx
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { useHover } from 'hooks-ts';
 
-export function HoverComponent() {
+export default function UseHoverExample() {
   const divRef = useRef<HTMLDivElement>(null);
   const isHovered = useHover(divRef);
 
