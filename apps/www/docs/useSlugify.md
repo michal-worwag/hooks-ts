@@ -5,10 +5,10 @@ The `useSlugify` hook converts a given string into a URL-friendly slug. It trans
 ## Usage
 
 ```tsx
-import { useSlugify } from 'hooks-ts';
 import { useState } from 'react';
+import { useSlugify } from 'hooks-ts';
 
-export default function Component() {
+export default function UseSlugifyExample() {
   const [value, setValue] = useState<string>('');
   const slug = useSlugify(value ?? '');
 

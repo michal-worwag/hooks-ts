@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export function useHover<T extends HTMLElement>(
-  elementRef: React.RefObject<T>,
+  elementRef: React.RefObject<T | null>,
 ): boolean {
   // State to track hover status
   const [isHovered, setIsHovered] = useState(false);

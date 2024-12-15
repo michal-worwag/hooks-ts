@@ -7,7 +7,7 @@ The `useNetworkStatus` hook monitors the online/offline status of the user's dev
 ```tsx
 import { useNetworkStatus } from 'hooks-ts';
 
-export default function App() {
+export default function UseNetworkStatusExample() {
   const isOnline = useNetworkStatus();
 
   return (
