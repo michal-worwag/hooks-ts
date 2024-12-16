@@ -1,5 +1,15 @@
 # www
 
+## 0.7.0
+
+### Minor Changes
+
+- 73684c3: feat: add useCounter hook with documentation and tests
+
+  feat: add useIsomorphicLayoutEffect hook with documentation and updates to README
+
+  feat: add useSessionStorage hook with documentation and tests
+
 ## 0.6.1
 
 ### Patch Changes
