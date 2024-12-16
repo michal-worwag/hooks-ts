@@ -12,6 +12,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useCountdown',
   },
   {
+    name: 'useCounter',
+    url: 'https://hooks-ts.com/docs/useCounter',
+  },
+  {
     name: 'useDarkMode',
     url: 'https://hooks-ts.com/docs/useDarkMode',
   },
@@ -24,6 +28,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useHover',
   },
   {
+    name: 'useIsomorphicLayoutEffect',
+    url: 'https://hooks-ts.com/docs/useIsomorphicLayoutEffect',
+  },
+  {
     name: 'useLocalStorage',
     url: 'https://hooks-ts.com/docs/useLocalStorage',
   },
@@ -34,6 +42,10 @@ export const hooks = [
   {
     name: 'useNetworkStatus',
     url: 'https://hooks-ts.com/docs/useNetworkStatus',
+  },
+  {
+    name: 'useSessionStorage',
+    url: 'https://hooks-ts.com/docs/useSessionStorage',
   },
   {
     name: 'useSlugify',
