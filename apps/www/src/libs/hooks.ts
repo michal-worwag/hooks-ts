@@ -44,6 +44,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useNetworkStatus',
   },
   {
+    name: 'useSessionStorage',
+    url: 'https://hooks-ts.com/docs/useSessionStorage',
+  },
+  {
     name: 'useSlugify',
     url: 'https://hooks-ts.com/docs/useSlugify',
   },
