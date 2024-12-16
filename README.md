@@ -15,6 +15,7 @@ npm install hooks-ts
 - [`useDarkMode`](https://hooks-ts.com/docs/useDebounce)
 - [`useDebounce`](https://hooks-ts.com/docs/useDebounce)
 - [`useHover`](https://hooks-ts.com/docs/useHover)
+- [`useIsomorphicLayoutEffect`](https://hooks-ts.com/docs/useIsomorphicLayoutEffect)
 - [`useLocalStorage`](https://hooks-ts.com/docs/useLocalStorage)
 - [`useMediaQuery`](https://hooks-ts.com/docs/useMediaQuery)
 - [`useNetworkStatus`](https://hooks-ts.com/docs/useNetworkStatus)
