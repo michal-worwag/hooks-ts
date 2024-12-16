@@ -10,7 +10,7 @@ This hook ensures compatibility across both client-side and server-side renderin
 ## Usage
 
 ```tsx
-import { useIsomorphicLayoutEffect } from '../hooks/useIsomorphicLayoutEffect';
+import { useIsomorphicLayoutEffect } from 'hooks-ts';
 
 export default function UseIsomorphicLayoutEffectExample() {
   useIsomorphicLayoutEffect(() => {
