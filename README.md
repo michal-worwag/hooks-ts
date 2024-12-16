@@ -11,6 +11,7 @@ npm install hooks-ts
 - [`useBoolean`](https://hooks-ts.com/docs/useBoolean)
 - [`useCopyToClipboard`](https://hooks-ts.com/docs/useCopyToClipboard)
 - [`useCountdown`](https://hooks-ts.com/docs/useCountdown)
+- [`useCounter`](https://hooks-ts.com/docs/useCounter)
 - [`useDarkMode`](https://hooks-ts.com/docs/useDebounce)
 - [`useDebounce`](https://hooks-ts.com/docs/useDebounce)
 - [`useHover`](https://hooks-ts.com/docs/useHover)
