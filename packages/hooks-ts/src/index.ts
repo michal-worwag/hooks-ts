@@ -1,6 +1,7 @@
 export * from './useBoolean';
 export * from './useCopyToClipboard';
 export * from './useCountdown';
+export * from './useCounter';
 export * from './useDarkMode';
 export * from './useDebounce';
 export * from './useHover';

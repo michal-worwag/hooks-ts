@@ -12,6 +12,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useCountdown',
   },
   {
+    name: 'useCounter',
+    url: 'https://hooks-ts.com/docs/useCounter',
+  },
+  {
     name: 'useDarkMode',
     url: 'https://hooks-ts.com/docs/useDarkMode',
   },
