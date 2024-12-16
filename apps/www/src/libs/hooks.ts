@@ -28,6 +28,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useHover',
   },
   {
+    name: 'useIsomorphicLayoutEffect',
+    url: 'https://hooks-ts.com/docs/useIsomorphicLayoutEffect',
+  },
+  {
     name: 'useLocalStorage',
     url: 'https://hooks-ts.com/docs/useLocalStorage',
   },
