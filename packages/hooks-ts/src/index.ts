@@ -12,4 +12,5 @@ export * from './useNetworkStatus';
 export * from './useSessionStorage';
 export * from './useSlugify';
 export * from './useThrottle';
+export * from './useTimeout';
 export * from './useToggle';
