@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.10.0
+
+### Minor Changes
+
+- 2c781cc: feat: add new useTimeout hook with docs
+
 ## 0.9.0
 
 ### Minor Changes

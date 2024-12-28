@@ -1,5 +1,11 @@
 # www
 
+## 0.8.0
+
+### Minor Changes
+
+- 2c781cc: feat: add new useTimeout hook with docs
+
 ## 0.7.0
 
 ### Minor Changes
