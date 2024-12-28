@@ -22,4 +22,5 @@ npm install hooks-ts
 - [`useSessionStorage`](https://hooks-ts.com/docs/useSessionStorage)
 - [`useSlugify`](https://hooks-ts.com/docs/useSlugify)
 - [`useThrottle`](https://hooks-ts.com/docs/useThrottle)
+- [`useTimeout`](https://hooks-ts.com/docs/useTimeout)
 - [`useToggle`](https://hooks-ts.com/docs/useToggle)

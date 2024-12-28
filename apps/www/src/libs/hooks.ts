@@ -56,6 +56,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useThrottle',
   },
   {
+    name: 'useTimeout',
+    url: 'https://hooks-ts.com/docs/useTimeout',
+  },
+  {
     name: 'useToggle',
     url: 'https://hooks-ts.com/docs/useToggle',
   },
