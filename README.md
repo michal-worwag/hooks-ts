@@ -19,7 +19,7 @@ npm install hooks-ts
 - [`useLocalStorage`](https://hooks-ts.com/docs/useLocalStorage)
 - [`useMediaQuery`](https://hooks-ts.com/docs/useMediaQuery)
 - [`useNetworkStatus`](https://hooks-ts.com/docs/useNetworkStatus)
-- ['usePrevious](https://hooks-ts.com/docs/usePrevious)
+- [`usePrevious`](https://hooks-ts.com/docs/usePrevious)
 - [`useSessionStorage`](https://hooks-ts.com/docs/useSessionStorage)
 - [`useSlugify`](https://hooks-ts.com/docs/useSlugify)
 - [`useThrottle`](https://hooks-ts.com/docs/useThrottle)
