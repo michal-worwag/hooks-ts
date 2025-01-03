@@ -9,6 +9,7 @@ export * from './useIsomorphicLayoutEffect';
 export * from './useLocalStorage';
 export * from './useMediaQuery';
 export * from './useNetworkStatus';
+export * from './usePrevious';
 export * from './useSessionStorage';
 export * from './useSlugify';
 export * from './useThrottle';
