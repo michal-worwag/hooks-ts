@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.11.0
+
+### Minor Changes
+
+- e81aa9d: Add usePrevious hook
+
 ## 0.10.0
 
 ### Minor Changes
