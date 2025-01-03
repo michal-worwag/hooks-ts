@@ -44,6 +44,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useNetworkStatus',
   },
   {
+    name: 'usePrevious',
+    url: 'https://hooks-ts.com/docs/usePrevious',
+  },
+  {
     name: 'useSessionStorage',
     url: 'https://hooks-ts.com/docs/useSessionStorage',
   },
