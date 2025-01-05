@@ -1,5 +1,11 @@
 # hooks-ts
 
+## 0.12.0
+
+### Minor Changes
+
+- 60ff57a: Add new useOnScreen hook
+
 ## 0.11.0
 
 ### Minor Changes

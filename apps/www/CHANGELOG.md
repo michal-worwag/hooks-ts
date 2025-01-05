@@ -1,5 +1,11 @@
 # www
 
+## 0.10.0
+
+### Minor Changes
+
+- 60ff57a: Add new useOnScreen hook
+
 ## 0.9.0
 
 ### Minor Changes
