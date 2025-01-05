@@ -25,6 +25,7 @@ You can find some docs here:
 - [`useLocalStorage`](https://hooks-ts.com/docs/useLocalStorage)
 - [`useMediaQuery`](https://hooks-ts.com/docs/useMediaQuery)
 - [`useNetworkStatus`](https://hooks-ts.com/docs/useNetworkStatus)
+- [`useOnScreen`](https://hooks-ts.com/docs/useOnScreen)
 - [`usePrevious`](https://hooks-ts.com/docs/usePrevious)
 - [`useSessionStorage`](https://hooks-ts.com/docs/useSessionStorage)
 - [`useSlugify`](https://hooks-ts.com/docs/useSlugify)

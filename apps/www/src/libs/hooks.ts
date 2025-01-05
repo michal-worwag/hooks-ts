@@ -44,6 +44,10 @@ export const hooks = [
     url: 'https://hooks-ts.com/docs/useNetworkStatus',
   },
   {
+    name: 'useOnScreen',
+    url: 'https://hooks-ts.com/docs/useOnScreen',
+  },
+  {
     name: 'usePrevious',
     url: 'https://hooks-ts.com/docs/usePrevious',
   },
