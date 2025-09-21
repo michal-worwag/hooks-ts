@@ -9,6 +9,7 @@ updates:
     directory: '/apps/www'
     schedule:
       interval: 'weekly'
+    target-branch: 'develop'
     labels:
       - 'npm dependencies'
 
@@ -16,5 +17,6 @@ updates:
     directory: '/packages/hooks-ts'
     schedule:
       interval: 'weekly'
+    target-branch: 'develop'
     labels:
       - 'npm dependencies'
