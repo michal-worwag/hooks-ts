@@ -1,0 +1,1 @@
+cd packages/hooks-ts && pnpm test
