@@ -12,7 +12,7 @@ npm install hooks-ts
 - [`useCopyToClipboard`](https://hooks-ts.com/docs/useCopyToClipboard)
 - [`useCountdown`](https://hooks-ts.com/docs/useCountdown)
 - [`useCounter`](https://hooks-ts.com/docs/useCounter)
-- [`useDarkMode`](https://hooks-ts.com/docs/useDebounce)
+- [`useDarkMode`](https://hooks-ts.com/docs/useDarkMode)
 - [`useDebounce`](https://hooks-ts.com/docs/useDebounce)
 - [`useHover`](https://hooks-ts.com/docs/useHover)
 - [`useIsomorphicLayoutEffect`](https://hooks-ts.com/docs/useIsomorphicLayoutEffect)

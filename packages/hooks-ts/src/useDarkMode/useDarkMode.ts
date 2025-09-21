@@ -1,36 +1,63 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useLocalStorage } from '../useLocalStorage';
 
+const isServer = typeof window === 'undefined';
+
+/**
+ * Custom hook for managing dark mode with localStorage persistence
+ * @returns [isDarkMode: boolean, toggleDarkMode: () => void]
+ */
 export function useDarkMode(): [boolean, () => void] {
-  // Checking user preferences from the system
-  const getInitialMode = (): boolean => {
-    const savedMode = localStorage.getItem('darkMode');
-    if (savedMode !== null) {
-      return JSON.parse(savedMode); // Return of stored value
+  // Get initial mode from localStorage or system preference
+  const getInitialMode = useCallback((): boolean => {
+    if (isServer) {
+      return false; // Default for SSR
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches; // Default mode
-  };
+
+    try {
+      const savedMode = localStorage.getItem('darkMode');
+      if (savedMode !== null) {
+        return JSON.parse(savedMode);
+      }
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    } catch (error) {
+      console.error('Error reading dark mode preference:', error);
+      return false;
+    }
+  }, []);
 
   const [isDarkMode, setIsDarkMode] = useState<boolean>(getInitialMode);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [darkMode, setDarkMode] = useLocalStorage<boolean>('darkMode', false);
 
-  // Switching mode
-  const toggleDarkMode = (): void => {
-    setIsDarkMode((prevMode) => !prevMode);
-  };
-
+  // Sync with localStorage when isDarkMode changes
   useEffect(() => {
-    // Saving preferences in localStorage
-    setDarkMode(isDarkMode);
-
-    // Adding class to the body
-    if (isDarkMode) {
-      document.body.classList.add('dark-mode');
-    } else {
-      document.body.classList.remove('dark-mode');
+    try {
+      setDarkMode(isDarkMode);
+    } catch (error) {
+      console.error('Error saving dark mode preference:', error);
     }
   }, [isDarkMode, setDarkMode]);
+
+  // Apply dark mode class to body
+  useEffect(() => {
+    if (isServer) return;
+
+    const body = document.body;
+    if (isDarkMode) {
+      body.classList.add('dark-mode');
+    } else {
+      body.classList.remove('dark-mode');
+    }
+
+    // Cleanup function
+    return () => {
+      body.classList.remove('dark-mode');
+    };
+  }, [isDarkMode]);
+
+  const toggleDarkMode = useCallback((): void => {
+    setIsDarkMode((prevMode) => !prevMode);
+  }, []);
 
   return [isDarkMode, toggleDarkMode];
 }

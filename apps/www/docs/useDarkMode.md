@@ -60,7 +60,7 @@ export function useDarkMode(): [boolean, () => void] {
     } else {
       document.body.classList.remove('dark-mode');
     }
-  }, [isDarkMode, setValue]);
+  }, [isDarkMode, setDarkMode]);
 
   return [isDarkMode, toggleDarkMode];
 }
