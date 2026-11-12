@@ -21,6 +21,7 @@ const config: Config = {
   projectName: 'hooks-ts', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'ignore',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -65,7 +66,7 @@ const config: Config = {
   themeConfig: {
     // image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
@@ -73,10 +74,15 @@ const config: Config = {
       title: 'hooks-ts',
       items: [
         {
+          href: '/#features',
+          label: 'Features',
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'docSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Documentation',
         },
         {
           href: 'https://github.com/michal-worwag/hooks-ts',
@@ -84,10 +90,6 @@ const config: Config = {
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} hooks-ts. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
