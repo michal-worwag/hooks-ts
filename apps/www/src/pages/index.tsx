@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import HomepageHeader from '../components/homepage-header';
 import HookList from '../components/hook-list';
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
