@@ -1,74 +1,98 @@
-export const hooks = [
+export type HookMeta = {
+  name: string;
+  url: string;
+  description: string;
+};
+
+export const hooks: HookMeta[] = [
   {
     name: 'useBoolean',
-    url: 'https://hooks-ts.com/docs/useBoolean',
+    url: '/docs/useBoolean',
+    description: 'Manage boolean state with handy helpers.',
   },
   {
     name: 'useCopyToClipboard',
-    url: 'https://hooks-ts.com/docs/useCopyToClipboard',
+    url: '/docs/useCopyToClipboard',
+    description: 'Copy text to the clipboard with feedback.',
   },
   {
     name: 'useCountdown',
-    url: 'https://hooks-ts.com/docs/useCountdown',
+    url: '/docs/useCountdown',
+    description: 'Run a countdown timer with start and reset.',
   },
   {
     name: 'useCounter',
-    url: 'https://hooks-ts.com/docs/useCounter',
+    url: '/docs/useCounter',
+    description: 'Increment, decrement, and reset a counter.',
   },
   {
     name: 'useDarkMode',
-    url: 'https://hooks-ts.com/docs/useDarkMode',
+    url: '/docs/useDarkMode',
+    description: 'Toggle and persist light/dark preference.',
   },
   {
     name: 'useDebounce',
-    url: 'https://hooks-ts.com/docs/useDebounce',
+    url: '/docs/useDebounce',
+    description: 'Debounce a rapidly changing value.',
   },
   {
     name: 'useHover',
-    url: 'https://hooks-ts.com/docs/useHover',
+    url: '/docs/useHover',
+    description: 'Track whether an element is hovered.',
   },
   {
     name: 'useIsomorphicLayoutEffect',
-    url: 'https://hooks-ts.com/docs/useIsomorphicLayoutEffect',
+    url: '/docs/useIsomorphicLayoutEffect',
+    description: 'SSR-safe layout effect alias.',
   },
   {
     name: 'useLocalStorage',
-    url: 'https://hooks-ts.com/docs/useLocalStorage',
+    url: '/docs/useLocalStorage',
+    description: 'Persist state in localStorage.',
   },
   {
     name: 'useMediaQuery',
-    url: 'https://hooks-ts.com/docs/useMediaQuery',
+    url: '/docs/useMediaQuery',
+    description: 'React to CSS media query matches.',
   },
   {
     name: 'useNetworkStatus',
-    url: 'https://hooks-ts.com/docs/useNetworkStatus',
+    url: '/docs/useNetworkStatus',
+    description: 'Know when the browser is online.',
   },
   {
     name: 'useOnScreen',
-    url: 'https://hooks-ts.com/docs/useOnScreen',
+    url: '/docs/useOnScreen',
+    description: 'Detect when an element enters the viewport.',
   },
   {
     name: 'usePrevious',
-    url: 'https://hooks-ts.com/docs/usePrevious',
+    url: '/docs/usePrevious',
+    description: 'Keep the previous value of a variable.',
   },
   {
     name: 'useSessionStorage',
-    url: 'https://hooks-ts.com/docs/useSessionStorage',
+    url: '/docs/useSessionStorage',
+    description: 'Persist state in sessionStorage.',
   },
   {
     name: 'useSlugify',
-    url: 'https://hooks-ts.com/docs/useSlugify',
+    url: '/docs/useSlugify',
+    description: 'Turn strings into URL-friendly slugs.',
   },
   {
     name: 'useThrottle',
-    url: 'https://hooks-ts.com/docs/useThrottle',
+    url: '/docs/useThrottle',
+    description: 'Throttle updates to a given interval.',
   },
   {
     name: 'useTimeout',
-    url: 'https://hooks-ts.com/docs/useTimeout',
+    url: '/docs/useTimeout',
+    description: 'Declarative wrapper around setTimeout.',
   },
   {
     name: 'useToggle',
-    url: 'https://hooks-ts.com/docs/useToggle',
+    url: '/docs/useToggle',
+    description: 'Toggle between two values with ease.',
   },
 ];

@@ -1,38 +1,104 @@
-.container {
-  padding: 1rem;
+.section {
+  padding: 5rem 0;
+  border-bottom: 1px solid var(--ht-border);
+  background:
+    radial-gradient(700px 280px at 50% 0%, var(--ht-mesh-a), transparent 70%),
+    var(--ht-bg);
+}
+
+.inner {
+  width: min(1120px, calc(100% - 2.5rem));
   margin: 0 auto;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+.header {
+  max-width: 40rem;
+  margin-bottom: 2.5rem;
 }
+
 .heading {
-  text-align: center;
-  padding: 4rem 0;
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  letter-spacing: -0.04em;
+}
+
+.lead {
+  margin: 0.75rem 0 0;
+  color: var(--ht-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: 1fr;
 }
 
 .hook {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-  border: 1px solid #eaeaea;
+  display: grid;
+  gap: 0.4rem;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--ht-border);
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--ht-surface) 88%, transparent);
+  text-decoration: none !important;
+  color: inherit;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease;
 }
 
-.hook h3 {
+.hook:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--ifm-color-primary) 45%, var(--ht-border));
+  box-shadow: 0 14px 30px color-mix(in srgb, var(--ht-glow) 55%, transparent);
+  background: var(--ht-surface);
+}
+
+.name {
   margin: 0;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.98rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ht-ink);
 }
 
-@media screen and (min-width: 599px) {
-  .wrapper {
+.description {
+  margin: 0;
+  color: var(--ht-muted);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.cta {
+  margin-top: 0.35rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.hook:hover .cta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (min-width: 700px) {
+  .grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 996px) {
-  .wrapper {
+  .grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

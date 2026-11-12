@@ -1,18 +1,110 @@
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+.hero {
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+  border-bottom: 1px solid var(--ht-border);
+  background:
+    radial-gradient(1200px 600px at 12% -10%, var(--ht-mesh-a), transparent 60%),
+    radial-gradient(900px 500px at 88% 8%, var(--ht-mesh-b), transparent 55%),
+    linear-gradient(180deg, color-mix(in srgb, var(--ht-bg) 70%, #fff) 0%, var(--ht-bg) 100%);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+[data-theme='dark'] .hero {
+  background:
+    radial-gradient(1200px 600px at 12% -10%, var(--ht-mesh-a), transparent 60%),
+    radial-gradient(900px 500px at 88% 8%, var(--ht-mesh-b), transparent 55%),
+    linear-gradient(180deg, #0f1622 0%, var(--ht-bg) 100%);
 }
 
-.buttons {
+.atmosphere {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.mesh {
+  position: absolute;
+  inset: -18% -8% auto auto;
+  width: min(72vw, 760px);
+  height: min(72vw, 760px);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--ht-glow), transparent 68%);
+  filter: blur(12px);
+  animation: ht-drift 14s ease-in-out infinite;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--ht-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--ht-border) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 50% 40%, black 20%, transparent 72%);
+  opacity: 0.5;
+  animation: ht-shimmer 8s ease-in-out infinite;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2.5rem));
+  margin: 0 auto;
+  padding: clamp(4.5rem, 12vh, 7.5rem) 0 clamp(3.5rem, 8vh, 5.5rem);
+  max-width: 40rem;
+  animation: ht-rise 700ms ease both;
+}
+
+.brand {
+  margin: 0 0 1rem;
+  font-family: var(--ifm-heading-font-family);
+  font-size: clamp(3rem, 9vw, 5.4rem);
+  font-weight: 800;
+  letter-spacing: -0.07em;
+  line-height: 0.92;
+  background: linear-gradient(
+    120deg,
+    var(--ht-ink) 10%,
+    var(--ifm-color-primary) 130%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.8vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  color: var(--ht-ink);
+}
+
+.subtitle {
+  margin: 1rem 0 0;
+  max-width: 34rem;
+  font-size: 1.08rem;
+  line-height: 1.65;
+  color: var(--ht-muted);
+}
+
+.actions {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 2rem;
+}
+
+.ghost {
+  background: color-mix(in srgb, var(--ht-surface) 70%, transparent) !important;
+  border: 1px solid var(--ht-border) !important;
+  color: var(--ht-ink) !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(8px);
+}
+
+.ghost:hover {
+  border-color: color-mix(in srgb, var(--ifm-color-primary) 45%, var(--ht-border)) !important;
 }
