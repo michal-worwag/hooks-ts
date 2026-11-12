@@ -11,6 +11,8 @@
   ],
   "scripts": {
     "ci": "pnpm --filter ./packages/hooks-ts run ci && pnpm --filter ./packages/hooks-ts test && pnpm --filter www typecheck && pnpm --filter www build",
+    "test": "pnpm --filter ./packages/hooks-ts test",
+    "www": "pnpm --filter www start",
     "release": "pnpm --filter ./packages/hooks-ts build && changeset publish",
     "local-release": "changeset version && pnpm release",
     "prepare": "husky"
